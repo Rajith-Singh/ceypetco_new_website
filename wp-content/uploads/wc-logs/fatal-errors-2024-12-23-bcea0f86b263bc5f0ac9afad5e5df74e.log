@@ -1,0 +1,26 @@
+2024-12-23T04:31:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ceypetco\wp-content\plugins\wpsection\theme\elementor\widget\wps_team.php on line 821
+
+2024-12-23T04:59:04+00:00 CRITICAL Uncaught TypeError: urlencode(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\ceypetco\wp-includes\formatting.php:5658
+Stack trace:
+#0 C:\xampp\htdocs\ceypetco\wp-includes\formatting.php(5658): urlencode(Array)
+#1 C:\xampp\htdocs\ceypetco\wp-includes\class-wp-query.php(1179): wp_basename(Array)
+#2 C:\xampp\htdocs\ceypetco\wp-includes\class-wp-query.php(949): WP_Query->parse_tax_query(Array)
+#3 C:\xampp\htdocs\ceypetco\wp-includes\class-wp-query.php(1868): WP_Query->parse_query()
+#4 C:\xampp\htdocs\ceypetco\wp-includes\class-wp-query.php(3852): WP_Query->get_posts()
+#5 C:\xampp\htdocs\ceypetco\wp-includes\class-wp-query.php(3984): WP_Query->query(Array)
+#6 C:\xampp\htdocs\ceypetco\wp-content\plugins\wpsection\theme\elementor\widget\product.php(1610): WP_Query->__construct(Array)
+#7 C:\xampp\htdocs\ceypetco\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): wpsection_product_Widget->render()
+#8 C:\xampp\htdocs\ceypetco\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#9 C:\xampp\htdocs\ceypetco\wp-content\plugins\elementor\core\base\document.php(328): Elementor\Widget_Base->render_content()
+#10 C:\xampp\htdocs\ceypetco\wp-content\plugins\elementor\includes\managers\widgets.php(459): Elementor\Core\Base\Document->render_element(Array)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\xampp\htdocs\ceypetco\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\xampp\htdocs\ceypetco\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\xampp\htdocs\ceypetco\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\xampp\htdocs\ceypetco\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\ceypetco\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\xampp\htdocs\ceypetco\wp-includes\formatting.php on line 5658
+
+2024-12-23T05:18:45+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ceypetco\wp-content\plugins\elementor\includes\widgets\testimonial.php on line 4
+
