@@ -1,0 +1,8 @@
+2025-01-03T03:06:46+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ceypetco\wp-content\plugins\lebuild-plugin\redux-framework\ReduxCore\inc\extensions\customizer\extension_customizer.php on line 22
+
+2025-01-03T03:07:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ceypetco\wp-admin\includes\media.php on line 3887
+
+2025-01-03T03:19:25+00:00 CRITICAL Out of memory (allocated 73400320) (tried to allocate 20480 bytes) in C:\xampp\htdocs\ceypetco\wp-content\plugins\elementor\includes\template-library\manager.php on line 4
+
+2025-01-03T03:19:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ceypetco\wp-content\plugins\elementor\core\admin\feedback.php on line 10
+
