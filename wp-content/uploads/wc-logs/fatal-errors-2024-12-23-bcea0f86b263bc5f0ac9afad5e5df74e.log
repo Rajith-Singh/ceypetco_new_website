@@ -24,3 +24,5 @@ Stack trace:
 
 2024-12-23T05:18:45+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ceypetco\wp-content\plugins\elementor\includes\widgets\testimonial.php on line 4
 
+2024-12-23T09:16:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ceypetco\ceypetco\wp-content\plugins\elementor\app\modules\site-editor\module.php on line 7
+
